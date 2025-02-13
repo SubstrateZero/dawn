@@ -272,6 +272,22 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+  .dots-slider {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-center {
+    text-align: center;
+  }
+}
+
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
