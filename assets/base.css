@@ -880,12 +880,11 @@ summary::-webkit-details-marker {
 /* component-grid */
 .grid {
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 2rem;
   padding: 0;
   list-style: none;
-  column-gap: var(--grid-mobile-horizontal-spacing);
-  row-gap: var(--grid-mobile-vertical-spacing);
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 
 @media screen and (min-width: 768px) {
